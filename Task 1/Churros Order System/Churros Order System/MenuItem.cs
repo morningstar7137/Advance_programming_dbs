@@ -1,12 +1,12 @@
-namespace ChurrosApp                                // Groups related files together
+namespace ChurrosApp                               
 {
-    public class MenuItem                           // Defines the base parent class
+    public class MenuItem                           
     {
         public double Price { get; set; }           // Property for the price of the item
         
         public MenuItem(double price)               // Constructor to initialize the price
         {
-            Price = price;                          // Assigns the price value
+            Price = price;                         
         }
     }
 }
