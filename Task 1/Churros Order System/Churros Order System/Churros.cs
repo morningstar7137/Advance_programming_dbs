@@ -1,4 +1,4 @@
-namespace ChurrosApp                                // Uses the same group name to link files
+namespace ChurrosApp                                
 {
     public class Churros : MenuItem                 // Inherits from the MenuItem class
     {
@@ -6,7 +6,7 @@ namespace ChurrosApp                                // Uses the same group name 
         
         public Churros(string flavor, double price) : base(price) // Passes price up to parent class
         {
-            Flavor = flavor;                        // Assigns the flavor value
+            Flavor = flavor;                        
         }
     }
 }
